@@ -5,7 +5,7 @@ from pypdf import PdfReader
 import re
 import streamlit as st
 from nltk.corpus import stopwords
-nltk.download('stopwords')
+# nltk.download('stopwords')
 # Load models
 word_vector = pickle.load(open("tfidf.pkl", "rb"))
 model = pickle.load(open("model.pkl", "rb"))
